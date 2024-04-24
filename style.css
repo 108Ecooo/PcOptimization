@@ -1,0 +1,48 @@
+body {
+    background-image: url('https://i.postimg.cc/HnhtGDkK/image.jpg');
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: black;
+    margin-top: 0;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.social-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.social-link-telegram {
+    background-color: #0088cc;
+}
+
+.social-link-whatsapp {
+    background-color: #25d366;
+}
+
+.social-link-instagram {
+    background-color: #ac2bac;
+}
+
+.button-text {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
